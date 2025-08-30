@@ -1,1 +1,66 @@
 /* 여기에 스타일을 구현해 주세요 */
+body {
+  margin: 20px;
+  height: 100%;
+  display: flex;
+}
+
+.form {
+  width: 800px;
+  height: 400px;
+  margin: 150px auto;
+}
+
+.imgwrapper {
+  margin: 110px 220px;
+  position: relative;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  border-radius: 50%;
+  display: block;
+}
+
+.wrapper1 > div,
+.wrapper2 > div {
+  position: relative;
+  display: inline-block;
+}
+
+.ring {
+  width: 14px;
+  height: 14px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.check1 {
+  background-color: #dbdbdb;
+}
+.check2 {
+  background-color: #4cfe88;
+}
+.check3 {
+  background-color: #dbdbdb;
+}
+.check4 {
+  background-color: #4cfe88;
+}
+.check5 {
+  background-color: #4cfe88;
+}
+.check6 {
+  background-color: #4cfe88;
+}
+.check7 {
+  background-color: #dbdbdb;
+}
+.check8 {
+  background-color: #dbdbdb;
+}
