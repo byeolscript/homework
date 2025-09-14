@@ -1,3 +1,80 @@
-@import "./reset.css";
-@import "./theme.css";
-@import "./base.css";
+@import './reset.css';
+@import './theme.css';
+@import './base.css';
+
+.card-white-component,
+.card-black-component {
+  block-size: var(--size);
+  padding-top: var(--large-spacing);
+  padding-bottom: var(--large-spacing);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-white-title {
+  color: var(--black);
+  font-size: var(--large-text);
+  line-height: var(--line-normal);
+}
+
+.card-black-title {
+  color: var(--white);
+  font-size: var(--large-text);
+  line-height: var(--line-normal);
+}
+
+.card-white-description {
+  color: var(--black);
+  font-size: var(--medium-text);
+  line-height: var(--line-normal);
+}
+
+.card-black-description {
+  color: var(--white);
+  font-size: var(--medium-text);
+  line-height: var(--line-normal);
+}
+
+.card-release-date {
+  color: var(--gray);
+  font-size: var(--small-text);
+  line-height: var(--line-normal);
+  margin-top: var(--small-spacing);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: var(--base-spacing);
+  margin-top: 16px;
+}
+
+.card-buttons button {
+  border-radius: 1.25rem;
+  padding: var(--x-small-spacing) var(--small-spacing);
+}
+
+.card-button-black {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.card-button-blackwhite {
+  background-color: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.card-button-blue {
+  background-color: var(--blue-300);
+  color: var(--white);
+  border: none;
+}
+
+.card-button-blueblack {
+  background-color: transparent;
+  color: var(--blue-200);
+  border: 1px solid var(--blue-300);
+}
